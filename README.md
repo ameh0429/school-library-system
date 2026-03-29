@@ -9,7 +9,7 @@ A RESTful API for managing a school library — authors, books, students, librar
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
-- [Setup & Installation](#setup -- installation)
+- [Setup & Installation](#setup--installation)
 - [Environment Variables](#environment-variables)
 - [API Documentation](#api-documentation)
   - [Authentication](#authentication)
@@ -17,7 +17,6 @@ A RESTful API for managing a school library — authors, books, students, librar
   - [Books](#books)
   - [Students](#students)
   - [Attendants](#attendants)
-- [Postman Collection](#postman-collection)
 - [Business Rules](#business-rules)
 
 ---
