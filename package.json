@@ -1,0 +1,31 @@
+{
+  "name": "library-system",
+  "version": "1.0.0",
+  "description": "School Library Management System REST API",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameh0429/school-library-system.git"
+  },
+  "keywords": [],
+  "author": "Ameh Mathias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameh0429/school-library-system/issues"
+  },
+  "homepage": "https://github.com/ameh0429/school-library-system#readme",
+
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  }
+}
