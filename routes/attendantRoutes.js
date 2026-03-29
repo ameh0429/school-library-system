@@ -22,7 +22,7 @@ router.post("/login", validateLogin, loginAttendant);
 router
   .route("/")
   .get(protect, getAttendants)
-  .post(protect, validateAttendant, createAttendant);
+  .post(validateAttendant, createAttendant);
 
 router
   .route("/:id")
